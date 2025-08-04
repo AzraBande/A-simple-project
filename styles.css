@@ -1,0 +1,63 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f8fc;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Lavender Theme */
+h1, h2, h3 {
+  color: #8e79c7;
+}
+
+a {
+  color: #8e79c7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout */
+header, section, footer {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.about, .projects, .contact {
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(142, 121, 199, 0.1);
+}
+
+/* Cards */
+.card {
+  border: 1px solid #e0d6fa;
+  background: #faf8ff;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 500px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  color: #888;
+}
